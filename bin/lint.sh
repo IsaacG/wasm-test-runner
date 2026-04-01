@@ -2,4 +2,5 @@
 
 set -euo pipefail
 
-pnpm lint
+corepack enable pnpm
+corepack pnpm lint
